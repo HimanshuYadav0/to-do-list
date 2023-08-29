@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue; 
+  }
+.container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  .list-group {
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .list-group-item.completed {
+    text-decoration: line-through;
+    background-color: lightgreen; 
+
+  }
+  
+  .complete-button,
+  .delete-button,
+  .update-button {
+    margin-right: 5px; 
+  }
+
+  .list-group-item.completed .complete-button {
+    display: none; 
+  }
+
+  .list-group-item.completed .update-button {
+    display: none; 
+  }
+  
